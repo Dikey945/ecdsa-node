@@ -5,6 +5,7 @@ function Transfer({ address, setBalance }) {
   const [sendAmount, setSendAmount] = useState("");
   const [recipient, setRecipient] = useState("");
 
+
   const setValue = (setter) => (evt) => setter(evt.target.value);
 
   async function transfer(evt) {
