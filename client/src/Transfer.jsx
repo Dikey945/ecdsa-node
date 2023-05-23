@@ -7,7 +7,6 @@ import {utf8ToBytes} from "ethereum-cryptography/utils";
 function Transfer({ address, setBalance, privateKey }) {
   const [sendAmount, setSendAmount] = useState("");
   const [recipient, setRecipient] = useState("");
-  const pvk = 'cbdc081f9ef652d50715787392163efed428a418f8e61198e58c2d8e724a9495'
 
 
   const setValue = (setter) => (evt) => setter(evt.target.value);
